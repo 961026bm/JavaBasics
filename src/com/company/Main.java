@@ -1,18 +1,19 @@
 package com.company;
 
-public class Main {
-
-    public static void main(String[] args) {
-	   String firstName = "Olubunmi ";
-       String lastName = "Osunde";
-       String fullName = firstName + lastName ;
-       String createFullName = new String();
-        System.out.println(fullName);
-        System.out.println();
+public class NameGenerator{
+    public static void generateFullName(String firstName, String lastName) {
+        System.out.println(generateFullName(String firstName, String lastName));
+        //return firstName + " " + lastName;
     }
-    public void createFullName (String[] args) {
-        String firstName = "Gabriel";
-        String lastName = "Sherman";
+    public static void main(String[] args) {
+        String firstName = "Olubunni";
+        String lastName = "Osunde";
+        String fullName = firstName + " " + lastName;
 
+        System.out.println(fullName);
+        System.out.println(createFullName("Olubunmi", "Osunde"));
+    }
+    public static String createFullName (String firstName, String lastName) {
+        return firstName + " " + lastName;
     }
 }
