@@ -1,19 +1,18 @@
 package com.company;
 
-public class NameGenerator{
-    public static void generateFullName(String firstName, String lastName) {
-        System.out.println(generateFullName(String firstName, String lastName));
-        //return firstName + " " + lastName;
-    }
-    public static void main(String[] args) {
-        String firstName = "Olubunni";
-        String lastName = "Osunde";
-        String fullName = firstName + " " + lastName;
+public class Main {
 
-        System.out.println(fullName);
-        System.out.println(createFullName("Olubunmi", "Osunde"));
-    }
-    public static String createFullName (String firstName, String lastName) {
-        return firstName + " " + lastName;
+    public static void main(String[] args) {
+        Car carOne = new Car("Camaro 2SS", "Chevy", 10000, 0.10F);
+        Car carTwo = new Car("Mustang GT ", "Ford", 30000, 0.50F);
+        Car carThree = new Car("Hellcat", "Dodge", 100, 0.90F);
+
+        System.out.println("Make: " + carOne.make + " Model: " + carOne.model);
+        System.out.println("Make: " + carTwo.make + " Model: " + carTwo.model);
+        System.out.println("Make: " + carThree.make + " Model: " + carThree.model);
     }
 }
+// Make: Camaro 2SS, Model: Chevy, mileage: 10000, gasTankPercent: 0.10
+//Make: Mustang GT Model: Ford, mileage: 30000, gasTankPercent: 0.50
+//
+//Make: Hellcat, Model: Dodge, mileage: 100, gasTankPercent: 0.90
