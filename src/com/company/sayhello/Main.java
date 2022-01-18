@@ -5,9 +5,18 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String userInput = scanner.nextLine();
+       whatIsYourName();
 
-        System.out.println(userInput);
+      // whatIsYourFullName();
+    }
+
+    public static void whatIsYourName() {
+        Scanner scanner = new Scanner(System.in); //same as below
+
+        System.out.println("What is your name");
+        String userInput = scanner.nextLine(); // variable created to store user input
+
+        System.out.println("Hello, nice to meet you");
     }
 }
+

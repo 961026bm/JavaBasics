@@ -16,3 +16,7 @@ public class Main {
 //Make: Mustang GT Model: Ford, mileage: 30000, gasTankPercent: 0.50
 //
 //Make: Hellcat, Model: Dodge, mileage: 100, gasTankPercent: 0.90
+
+    /* Bonus
+Make all your fields private and use getter/setters to access data.
+        Create a Override toString method that */
