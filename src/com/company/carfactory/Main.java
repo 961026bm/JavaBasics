@@ -6,9 +6,10 @@ public class Main {
     public static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        CreateACar();
+        createACar();
+        createACarObject();
     }
-    public static void CreateACar() {
+    public static void createACar() {
         String make = scan.nextLine();
         String model = scan.nextLine();
         String owner = scan.nextLine();
@@ -16,8 +17,19 @@ public class Main {
         System.out.println(owner + " owns the car " + make + " " + model);
     }
 
-}
+    public static void createACarObject() {
+        String make = scan.nextLine();
+        String model = scan.nextLine();
+        int mileage = scan.nextInt();
+        float gasTankPercentage = scan.nextFloat();
 
+        System.out.println(make + " " + model + " " + "has a total of  " + mileage + " " + "with a " + gasTankPercentage );
+    }
+}
+//    Create a method call “createACarObject” in you Main class
+//This method should take four user inputs: make, model, mileage, and gasTankPercentage.
+//        Once the inputs have been received by the program, create a new instance of the Car class.
+//        Then output a sentence that contains the make, model, mileage and gasTankPercentage
 
 
 
