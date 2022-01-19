@@ -13,10 +13,11 @@ public class Main {
     public static void whatIsYourName() {
         Scanner scanner = new Scanner(System.in); //same as below
 
-        System.out.println("What is your name");
+        System.out.print("What is your name? ");
         String userInput = scanner.nextLine(); // variable created to store user input
 
-        System.out.println("Hello, nice to meet you");
+        System.out.println("Hello, nice to meet you "  + userInput);
+
     }
 }
 
