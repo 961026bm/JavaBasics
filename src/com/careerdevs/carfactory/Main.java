@@ -1,4 +1,4 @@
-package com.company.carfactory;
+package com.careerdevs.carfactory;
 
 import java.util.Scanner;
 

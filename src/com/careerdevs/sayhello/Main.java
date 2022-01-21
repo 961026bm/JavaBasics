@@ -1,4 +1,4 @@
-package com.company.sayhello;
+package com.careerdevs.sayhello;
 
 import java.util.Scanner;
 
@@ -17,6 +17,14 @@ public class Main {
         String userInput = scanner.nextLine(); // variable created to store user input
 
         System.out.println("Hello, nice to meet you "  + userInput);
+
+        System.out.println("What is your firstName");
+        String response = scanner.nextLine();
+
+        System.out.println("What is your lastName");
+        String response1 = scanner.nextLine();
+
+        System.out.println("It is nice to formally  meeti you  "  + response + response1);
 
     }
 }

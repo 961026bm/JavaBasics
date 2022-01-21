@@ -1,4 +1,4 @@
-package com.company;
+package com.careerdevs;
 
 public class Car {
     public String make;
