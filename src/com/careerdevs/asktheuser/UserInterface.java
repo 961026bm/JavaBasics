@@ -35,9 +35,9 @@ public class UserInterface {
         double input6 = scanner.nextDouble();
         System.out.println("pi is " + input6);
 
-        System.out.println("Is Gabe an instructor? ");
+        System.out.println("Is Gabe a good instructor? ");
         boolean input7 = scanner.nextBoolean();
-        System.out.println(input7 + " he is an instructor");
+        System.out.println(input7 + " he is a good instructor");
 
 
     }
