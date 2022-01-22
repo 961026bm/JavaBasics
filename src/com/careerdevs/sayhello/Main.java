@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
        whatIsYourName();
 
-      // whatIsYourFullName();
+      whatIsYourFullName();
     }
 
     public static void whatIsYourName() {
@@ -17,6 +17,11 @@ public class Main {
         String userInput = scanner.nextLine(); // variable created to store user input
 
         System.out.println("Hello, nice to meet you "  + userInput);
+
+    }
+
+    public static void whatIsYourFullName() {
+        Scanner scanner = new Scanner(System.in); //same as below
 
         System.out.println("What is your firstName");
         String response = scanner.nextLine();
