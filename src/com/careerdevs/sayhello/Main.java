@@ -29,7 +29,7 @@ public class Main {
         System.out.println("What is your lastName");
         String response1 = scanner.nextLine();
 
-        System.out.println("It is nice to formally  meeti you  "  + response + response1);
+        System.out.println("It is nice to formally  meet you  "  + response +  " " + response1);
 
     }
 }
