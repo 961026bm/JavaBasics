@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
+
         createAPlane();
     }
 
@@ -18,6 +19,7 @@ public class Main {
 
         System.out.println("Enter maxSpeed\nNum: ");
         float maxSpeed = scan.nextFloat();
+        scan.nextLine();
 
         System.out.println("Enter Character\nNum:  ");
         char idCharacter = scan.nextLine().charAt(0);
@@ -30,5 +32,8 @@ public class Main {
 
         //3rd print the fields value in the terminal
         System.out.println(airplane.maxSpeed);
+        System.out.println(airplane.airLineName);
+        System.out.println(airplane.idCharacter);
+        System.out.println(airplane.passengers);
     }
 }
